@@ -1,0 +1,33 @@
+{
+  "name": "legible",
+  "version": "1.0.0",
+  "description": "Check WCAG contrast between two CSS colors and find the nearest color that passes, keeping its hue",
+  "type": "module",
+  "bin": {
+    "legible": "bin/legible.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "wcag",
+    "contrast",
+    "accessibility",
+    "color",
+    "oklch",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mangodistro/legible.git"
+  },
+  "author": "mangodistro",
+  "license": "MIT"
+}
